@@ -10,10 +10,5 @@
         <module name="storm" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="fundamentals" target="1.8" />
-      <module name="spark" target="1.8" />
-      <module name="storm" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
