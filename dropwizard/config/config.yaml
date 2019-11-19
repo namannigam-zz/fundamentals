@@ -1,0 +1,44 @@
+server:
+  applicationConnectors:
+    - type: http
+      port: 9990
+  adminConnectors:
+    - type: http
+      port: 9901
+
+  requestLog:
+    appenders:
+      - type: file
+        currentLogFilename: /var/log/calendar/access.log
+        threshold: ALL
+        archive: true
+        maxFileSize: 50MB
+        archivedLogFilenamePattern: /var/log/calendar/access-%d-%i.log.gz
+        archivedFileCount: 4
+        timeZone: IST
+      - type: console
+        threshold: ALL
+        timeZone: UTC
+        target: stdout
+  rootPath: /api/
+
+logging:
+  level: INFO
+  loggers:
+    io.dropwizard: INFO
+  appenders:
+    - type: file
+      threshold: ALL
+      currentLogFilename: /var/log/calendar/calendar.log
+      archive: true
+      archivedLogFilenamePattern: /var/log/calendar/calendar-%i.log.gz
+      maxFileSize: 50MB
+      archivedFileCount: 5
+      timeZone: IST
+    - type: console
+      threshold: ALL
+      timeZone: IST
+      target: stdout
+
+swagger:
+  resourcePackage: org.tvlk.calendar.resources
