@@ -1,7 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eab9ffd9-161a-4c61-8d5f-9556b680d891" name="Default Changelist" comment="" />
+    <list default="true" id="eab9ffd9-161a-4c61-8d5f-9556b680d891" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/dropwizard/dropwizard.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dropwizard/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dropwizard/src/main/java/edu/fundamental/application/CalendarApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dropwizard/src/main/java/edu/fundamental/application/CalendarConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dropwizard/src/main/java/edu/fundamental/application/CalendarHealthCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dropwizard/src/main/java/edu/fundamental/application/CalendarModule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dropwizard/src/main/java/edu/fundamental/application/StartupConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dropwizard/src/main/java/edu/fundamental/dao/EmployeeDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dropwizard/src/main/java/edu/fundamental/dao/InviteDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dropwizard/src/main/java/edu/fundamental/dao/MeetingDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dropwizard/src/main/java/edu/fundamental/model/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dropwizard/src/main/java/edu/fundamental/model/Invite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dropwizard/src/main/java/edu/fundamental/model/Meeting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dropwizard/src/main/java/edu/fundamental/model/Room.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dropwizard/src/main/java/edu/fundamental/provider/InviteServiceProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dropwizard/src/main/java/edu/fundamental/provider/ManagementServiceProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dropwizard/src/main/java/edu/fundamental/provider/MeetingServiceProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dropwizard/src/main/java/edu/fundamental/request/AddEmployeeRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dropwizard/src/main/java/edu/fundamental/request/InviteRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dropwizard/src/main/java/edu/fundamental/request/MeetingRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dropwizard/src/main/java/edu/fundamental/resources/InviteResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dropwizard/src/main/java/edu/fundamental/resources/ManagementResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dropwizard/src/main/java/edu/fundamental/resources/MeetingResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dropwizard/src/main/java/edu/fundamental/response/InviteResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dropwizard/src/main/java/edu/fundamental/service/InviteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dropwizard/src/main/java/edu/fundamental/service/ManagementService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dropwizard/src/main/java/edu/fundamental/service/MeetingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dropwizard/src/main/java/edu/fundamental/store/EmployeeStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dropwizard/src/main/java/edu/fundamental/store/InviteStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dropwizard/src/main/java/edu/fundamental/store/MeetingStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fundamentals.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,10 +61,19 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1QeqhopgjpEyUE5uDZBtd50qGmp" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../problem-solving-and-data-structures" />
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dropwizard/src/main/java" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dropwizard/src/main/java" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
